@@ -7,11 +7,15 @@ Potenciar la captación de clientes y oportunidades laborales al exhibir de form
 Nombre: Carla Soto
 
 Edad: 41 años
-
 Ocupación: Directora de Arte y Producción Creativa en "Groove Records" (Disquera Indie enfocada en Rock Alternativo y Electrónica).
 
 Ubicación: Ciudad grande (e.g., Los Ángeles, CDMX, Madrid).
 
+2. Comportamientos y Creencias (Behaviors and Beliefs)
+Comportamiento: Pasa gran parte del día revisando feeds de diseñadores en Instagram y Behance, y monitoreando el diseño de discos de la competencia.
+Trabaja con plazos de entrega estrictos y volúmenes altos (lanzamiento de singles, EP's y álbumes).
+
+Creencia Clave: "El arte de un álbum es la primera y última impresión que tiene un fan sobre la identidad de un artista." Valora la conceptualización profunda y el conocimiento del legado estético del género musical.
 3. Comportamientos y Creencias (Behaviors and Beliefs)
 Comportamiento: Pasa gran parte del día revisando feeds de diseñadores en Instagram y Behance, y monitoreando el diseño de discos de la competencia. Trabaja con plazos de entrega estrictos y volúmenes altos (lanzamiento de singles, EP's y álbumes).
 Creencia Clave: "El arte de un álbum es la primera y última impresión que tiene un fan sobre la identidad de un artista." Valora la conceptualización profunda y el conocimiento del legado estético del género musical.
