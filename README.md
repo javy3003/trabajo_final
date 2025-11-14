@@ -1,10 +1,10 @@
 # trabajo_final
-##¿Para qué es esta propuesta?
+## ¿Para qué es esta propuesta?
 Potenciar la captación de clientes y oportunidades laborales al exhibir de forma estratégica, visualmente impactante y profesional los proyectos, procesos creativos y competencias técnicas propios del diseño gráfico
-##¿Para quiénes es esta propuesta?
-La Directora de Arte de una Disquera
+## ¿Para quiénes es esta propuesta?
+### La Directora de Arte de una Disquera
 1. Datos Básicos y Demográficos
-Nombre: Carla Soto
+Nombre: :text Carla Soto:
 Edad: 41 años
 Ocupación: Directora de Arte y Producción Creativa en "Groove Records" (Disquera Indie enfocada en Rock Alternativo y Electrónica).
 Ubicación: Ciudad grande (e.g., Los Ángeles, CDMX, Madrid).
@@ -25,6 +25,6 @@ Pregunta Clave: "¿Puede este estudiante crear una imagen tan icónica como la m
 
 
 
-##Antecedentes
+## Antecedentes
 
-##Referentes
+## Referentes
