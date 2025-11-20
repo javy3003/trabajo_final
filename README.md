@@ -7,7 +7,7 @@ Potenciar la captación de clientes y oportunidades laborales al exhibir de form
 
 * Datos Básicos y Demográficos
 
-  * Nombre: Carla Soto
+  * Nombre: Carla Soto 
   * Edad: 41 años
   * Ocupación: Directora de Arte y Producción Creativa en "Groove Records" (Disquera Indie enfocada en Rock Alternativo y Electrónica).
   * Ubicación: Ciudad grande (e.g., Los Ángeles, CDMX, Madrid).
