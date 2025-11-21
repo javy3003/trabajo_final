@@ -1,5 +1,5 @@
 /* Reset y estilos base */
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: -apple-system, 'Jacquard 24', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'EB Garamond', sans-serif;
+    font-family: -apple-system, 'Tinos', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'EB Garamond', sans-serif;
     line-height: 1.6;
     color: #1f2937;
     background-color:  #0E0D12;
@@ -31,7 +31,7 @@ body {
     position: sticky;
     top: 0;
     background-color: #0E0D12;
-    border-bottom: 1px solid #e5e7eb;
+    border-bottom: 1px solid #541C8C;
     z-index: 1000;
 }
 
@@ -49,8 +49,8 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
     color: #f9a8d4;
 }
 
@@ -125,8 +125,8 @@ body {
 }
 
 .hero-title {
-    font-family: "Jacquard 24", system-ui;
-    font-weight: 400;
+    font-family: "Tinos", serif;
+    font-weight: 700;
     font-style: normal;
     font-size: 4rem;
 
@@ -227,7 +227,7 @@ body {
 .section-title {
     font-size: 2.25rem;
     font-weight: 700;
-    color: #1f2937;
+    color: #AB15BF;
     margin-bottom: 1.5rem;
 }
 
@@ -239,7 +239,7 @@ body {
 
 .welcome-text {
     font-size: 1.25rem;
-    color: #4b5563;
+    color: #AB15BF;
     max-width: 48rem;
     margin: 0 auto 1.5rem;
     line-height: 1.75;
@@ -247,7 +247,7 @@ body {
 
 .welcome-subtext {
     font-size: 1.125rem;
-    color: #6b7280;
+    color: #AB15BF;
     max-width: 42rem;
     margin: 0 auto;
 }
