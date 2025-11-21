@@ -1,64 +1,248 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sitio web en construcción</title>
-  </head>
-  <body>
-    <h1>Hola mundo!</h1>
-    <script>
-      const portfolio = document.querySelector("#porotito");
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadey | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <svg class="icon menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <h1 class="logo">Portafolio</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Sobre mi</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+                <div class="header-right">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
 
-async function datos(raw) {
-    try {
-        let consulta = await fetch(raw);
-        if (consulta.status === 429) {
-            await new Promise(resolve => setTimeout(resolve, 2000));
-            consulta = await fetch(raw);
-        }
-        let trabajos = await consulta.json();
-        console.log(trabajos);
-        
-        trabajos.forEach((trabajo) => {
-            const col = document.createElement('div');
-            col.className = 'col';
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Javiera Donoso</h2>
+        </div>
+    </section>
+
+    <!-- Featured Article Card -->
+    <section class="container featured-section">
+        <div class="featured-card">
+            <div class="featured-image"></div>
+            <div class="featured-content">
+                <p class="category">Product Guides</p>
+                <h3 class="featured-title">The Best Gifts for Someone in Treatment</h3>
+                <button class="link-button">
+                    Read more
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <div class="container text-center">
+            <h2 class="section-title">Welcome home.</h2>
+            <p class="welcome-text">
+                We're glad you found us. Whether you're newly diagnosed or deep into your 
+                cancer journey, we're here to guide you and make it all a little easier.
+            </p>
+            <p class="welcome-subtext">
+                Honest advice, expert tips, and stories from people who get it.
+            </p>
+        </div>
+    </section>
+
+    <!-- Product Guides Section -->
+    <section class="product-guides-section">
+        <div class="container">
+            <div class="text-center section-header">
+                <h2 class="section-title">What you really need</h2>
+                <p class="section-subtitle">(because we've been there, too).</p>
+            </div>
             
-            col.innerHTML = `
-                <div class="card shadow-sm">
-                    <img class="card-img-top">
-                    <div class="card-body">
-                        <p class="card-text"></p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary"></button>
-                            </div>
-                            <small class="text-body-secondary">Reciente</small>
-                        </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <p class="category">Product Guide</p>
+                        <h3 class="card-title">Essential Items for Treatment</h3>
+                        <button class="link-button">
+                            Read more
+                            <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
                     </div>
-                </div>`;
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <p class="category">Product Guide</p>
+                        <h3 class="card-title">Comfort Products You'll Love</h3>
+                        <button class="link-button">
+                            Read more
+                            <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <p class="category">Product Guide</p>
+                        <h3 class="card-title">Recovery Essentials</h3>
+                        <button class="link-button">
+                            Read more
+                            <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
             
-            col.querySelector('img').src = trabajo.imagen;
-            col.querySelector('.card-text').textContent = trabajo.titulo;
-            col.querySelector('button').textContent = trabajo.categoria;
+            <div class="text-center" style="margin-top: 40px;">
+                <button class="link-button">
+                    All product guides
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="shop-section">
+        <div class="container">
+            <div class="shop-header">
+                <h2 class="section-title">Products we love right now.</h2>
+                <button class="link-button">
+                    Shop All
+                    <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
             
-            portfolio.appendChild(col);
-        });
-    } catch (error) {
-        console.error("Error al cargar los datos:", error);
-    }
-}
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h4 class="product-name">Product Name</h4>
+                    <p class="product-brand">Brand Name</p>
+                    <p class="product-price">$29.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h4 class="product-name">Product Name</h4>
+                    <p class="product-brand">Brand Name</p>
+                    <p class="product-price">$29.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h4 class="product-name">Product Name</h4>
+                    <p class="product-brand">Brand Name</p>
+                    <p class="product-price">$29.99</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h4 class="product-name">Product Name</h4>
+                    <p class="product-brand">Brand Name</p>
+                    <p class="product-price">$29.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        datos("https://raw.githubusercontent.com/profesorfaco/clase-10/refs/heads/main/datos.json");
-    });
-} else {
-    datos("https://raw.githubusercontent.com/profesorfaco/clase-10/refs/heads/main/datos.json");
-}</script>
+    <!-- Registry CTA Section -->
+    <section class="registry-section">
+        <div class="container text-center">
+            <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <h2 class="registry-title">Start your registry.</h2>
+            <p class="registry-text">
+                Everyone around you wants to help. Let them by highlighting the most-needed 
+                items during your treatment journey.
+            </p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
 
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container text-center">
+            <h2 class="trust-title">There's a lot of information out there when it comes to cancer.</h2>
+            <p class="trust-text">
+                We make sure that our content is reviewed by a team of medical experts, 
+                so that you can rest assured the information on Jadey is vetted and verified.
+            </p>
+        </div>
+    </section>
 
-
-  </body>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-logo">Jadey</h3>
+                    <p class="footer-tagline">Navigating cancer together.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Product Guides</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Registry</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-title">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Jadey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
