@@ -73,5 +73,13 @@ Potenciar la captación de clientes y oportunidades laborales al exhibir de form
 
 
 ## Antecedentes
+https://www.willzhang.info
+estilo
+https://www.studiotyrsa.com
+banner
+https://www.hellojadey.com
+estructura
+
+
 
 ## Referentes
