@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Proyectos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="section-title" style="text-align:center; margin-top:50px;">
+    Deseo, Carne y Voluntad - Candelabro
+</h1>
+<div class="container text-center">
+    <p class="welcome-text">
+        Diseño de Arte Conceptual para álbum con temáticas relacionadas a la chilenidad y la cultura católica popular. Además de adaptación a formatos físicos CD y Vinilo
+    </p>
+</div>
+
+<div class="container" style="padding: 2rem;">
+    <div class="grid">
+ 
+        <div class="card-image">
+            <img src="img/copihues.jpg">
+        </div>
+        <div class="card-image">
+            <img src="img/dcvcard.jpg">
+        </div>
+        <div class="card-image">
+            <img src="img/cordillera.jpg">
+        </div>
+        <div class="card-image">
+            <img src="img/dcvcd.jpg">
+        </div>
+        <div class="card-image">
+            <img src="img/dcvvinyl.jpg">
+        </div>
+        <div class="card-image">
+            <img src="img/dcvvinylback.jpg">
+        </div>
+    </div>
+
+    <a href="index.html" class="link-button" style="margin-top:2rem; display:block; text-align:center;">
+        Volver
+    </a>
+</div>
+
+<script>
+// EFECTO FADE-IN AL CARGAR
+document.body.style.opacity = 0;
+window.onload = () => {
+    document.body.style.transition = "opacity .4s ease";
+    document.body.style.opacity = 1;
+};
+
+// EFECTO FADE-OUT AL CAMBIAR DE PAGINA
+document.querySelectorAll("a").forEach(el => {
+    el.addEventListener("click", function(e) {
+        if (this.getAttribute("href") === "#") return;
+
+        e.preventDefault();
+        const url = this.getAttribute("href");
+        document.body.classList.add("fade-out");
+
+        setTimeout(() => {
+            window.location.href = url;
+        }, 400);
+    });
+});
+</script>
+
+</body>
+</html>
